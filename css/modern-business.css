@@ -19,14 +19,6 @@
   src:url(../recursos/fuentes/LibreFranklin-Regular.ttf);
 }
 
-/*
-//example font
-//remember delete this when all over
-h1{
-  font-family:LibreFranklin-Bold;
-}
-*/
-
 body {
   padding-top: 54px;
 }
@@ -160,5 +152,17 @@ body {
   border-color: black;
   color: black;
   padding: 8pt;
-  border-width: 2px;  
+  border-width: 2px;
+}
+
+.body-medio-h1{
+  color: white;
+  font-family: LibreFranklin-Bold;
+  font-size: 60pt;
+}
+
+.body-medio-h4{
+  color: white;
+  font-family: LibreFranklin-Regular;
+  font-size: 18pt;
 }
