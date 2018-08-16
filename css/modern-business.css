@@ -133,3 +133,32 @@ body {
   left: -100px;
   top: 100px;
 }
+
+.body-superior-h6{
+  font-size: 16pt;
+  font-family: LibreFranklin-Bold;
+}
+
+.body-superior-p{
+  font-size: 10pt;
+  font-family: LibreFranklin-Light;
+}
+
+.botton-body-superior{
+  text-decoration: none;
+  font-family: LibreFranklin-Bold;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  padding: 8pt;
+  border-width: 2px;  
+}
+.botton-body-superior:hover{
+  text-decoration: none;
+  font-family: LibreFranklin-Bold;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  padding: 8pt;
+  border-width: 2px;  
+}
