@@ -1,0 +1,135 @@
+@font-face{
+  font-family:LibreFranklin-Bold;
+  src:url(../recursos/fuentes/LibreFranklin-Bold.ttf);
+}
+@font-face{
+  font-family:LibreFranklin-ExtraLight;
+  src:url(../recursos/fuentes/LibreFranklin-ExtraLight.ttf);
+}
+@font-face{
+  font-family:LibreFranklin-Light;
+  src:url(../recursos/fuentes/LibreFranklin-Light.ttf);
+}
+@font-face{
+  font-family:LibreFranklin-Medium;
+  src:url(../recursos/fuentes/LibreFranklin-Medium.ttf);
+}
+@font-face{
+  font-family:LibreFranklin-Regular;
+  src:url(../recursos/fuentes/LibreFranklin-Regular.ttf);
+}
+
+/*
+//example font
+//remember delete this when all over
+h1{
+  font-family:LibreFranklin-Bold;
+}
+*/
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.card-icon-top{
+  position: fixed;
+  top: 0;
+  left: 100px;
+}
+
+.padding-top-navbar{
+  padding-top: 29px;
+  font-family:LibreFranklin-Regular;
+  font-size: 13px
+}
+
+.nav-item{
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.padding-top-navbar a:hover, .padding-top-navbar a:active{
+  color: white !important;
+}
+
+.padding-top-navbar a:link, .padding-top-navbar a:visited{
+  color: white !important;
+}
+
+.background-color-navbar{
+  background-color: #3E3E3E !important;
+}
+
+#botton-navbar a{
+  border-style: solid;
+  border-color: #FD5C6E;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: red;
+}
+
+.carousel{
+  padding-top: 50px; 
+}
+
+.carousel-item{
+  height: 80vh;
+}
+
+.carousel-caption{
+  position: relative;
+  top: 250px;
+  left: 450px;
+  text-align: justify;
+}
+
+.marca-agua{
+ position: relative;
+  top: 100px;
+  left: 400px;
+  width: 400px;
+  height: 160px;
+}
+
+.carousel-caption h3{
+  font-size: 18pt;
+  color: red;
+  font-family: LibreFranklin-ExtraLight;
+}
+
+.carousel-caption h6{
+  font-size: 10pt;
+  font-family: LibreFranklin-Light;
+}
+
+.comillas {
+  position: relative;
+  left: -100px;
+}
+
+.line {
+  position: relative;
+  left: -100px;
+  top: 100px;
+}
