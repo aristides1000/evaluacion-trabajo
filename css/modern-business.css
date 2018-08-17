@@ -18,6 +18,10 @@
   font-family:LibreFranklin-Regular;
   src:url(../recursos/fuentes/LibreFranklin-Regular.ttf);
 }
+@font-face{
+  font-family:ayar;
+  src:url(../recursos/fuentes/ayar.ttf);
+}
 
 body {
   padding-top: 54px;
@@ -164,5 +168,30 @@ body {
 .body-medio-h4{
   color: white;
   font-family: LibreFranklin-Regular;
-  font-size: 18pt;
+  font-size: 14pt;
+}
+
+.text-icon{
+  font-family: LibreFranklin-Bold;
+  font-size: 16pt;
+}
+
+.text-ceo{
+  font-family: ayar;
+  font-size: 30pt;
+}
+
+.p-ceo{
+  font-family: ayar;
+  font-size: 10pt; 
+}
+
+.title-personal{
+  font-family: LibreFranklin-Bold;
+  font-size: 16pt;
+}
+
+.p-personal{
+  font-family: LibreFranklin-Light;
+  font-size: 12pt;
 }
